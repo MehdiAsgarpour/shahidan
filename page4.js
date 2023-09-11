@@ -187,7 +187,7 @@ const List = [feyzollahian, falakbin, falahati, ariebandan, ashobi, aghaie, alai
     yaldaie, yavarpour, yazdanpour, zaerpour, zareb, zarebian, ziyafati, ];
 
 let counter = 0;
-let myInterval = setInterval(change, 8000);
+let myInterval = setInterval(change, 12000);
 function change() {
     if (counter < List.length) {
         document.querySelectorAll("img")[0].src = List[counter].picture;
