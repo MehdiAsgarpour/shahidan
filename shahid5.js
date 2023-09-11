@@ -12,20 +12,20 @@ let centerPic = document.getElementById("centerPic");
 centerPic.style.backgroundImage = "url('logo2.png')";
 
 
-pic2.style.backgroundImage = "url('photo/mardani.png')";
-pic4.style.backgroundImage = "url('photo/saldar.png')";
-pic5.style.backgroundImage = "url('photo/shabanpour.png')";
-pic7.style.backgroundImage = "url('photo/parvardegari.png')";
+pic2.style.backgroundImage = "url('https://s31.picofile.com/file/8467908242/mardani.png')";
+pic4.style.backgroundImage = "url('https://s30.picofile.com/file/8467908368/saldar.png')";
+pic5.style.backgroundImage = "url('https://s30.picofile.com/file/8467908476/shabanpour.png')";
+pic7.style.backgroundImage = "url('https://s30.picofile.com/file/8467908300/parvardegari.png')";
 
 let counter = 0;
 setInterval(change, 7000);
 function change() {
     if (counter % 2 === 0) {
-        pic1.style.backgroundImage = "url('photo/habibishaban.png')";
-        pic3.style.backgroundImage = "url('photo/hajian.png')";
-        pic6.style.backgroundImage = "url('photo/pourabas.png')";
-        pic8.style.backgroundImage = "url('photo/tasalinia.png')";
-        pic9.style.backgroundImage = "url('photo/makani.png')";
+        pic1.style.backgroundImage = "url('https://s30.picofile.com/file/8467908092/habibishaban.png')";
+        pic3.style.backgroundImage = "url('https://s30.picofile.com/file/8467908118/hajian.png')";
+        pic6.style.backgroundImage = "url('https://s30.picofile.com/file/8467908334/pourabas.png')";
+        pic8.style.backgroundImage = "url('https://s31.picofile.com/file/8467908584/tasalinia.png')";
+        pic9.style.backgroundImage = "url('https://s30.picofile.com/file/8467908192/makani.png')";
 
         pic2.style.backgroundImage = "none";
         pic4.style.backgroundImage = "none";
