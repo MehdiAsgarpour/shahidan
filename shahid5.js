@@ -18,7 +18,7 @@ pic5.style.backgroundImage = "url('https://s30.picofile.com/file/8467908476/shab
 pic7.style.backgroundImage = "url('https://s30.picofile.com/file/8467908300/parvardegari.png')";
 
 let counter = 0;
-setInterval(change, 7000);
+setInterval(change, 12000);
 function change() {
     if (counter % 2 === 0) {
         pic1.style.backgroundImage = "url('https://s30.picofile.com/file/8467908092/habibishaban.png')";
